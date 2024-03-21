@@ -8,5 +8,11 @@ namespace APIPractice.Model
         [Required]
         [StringLength(50)]
         public string studentName { get; set; }
+        public string  FatherName { get; set; }     
+        public string  MotherName { get; set; }     
+        public DateTime Dob { get; set; }     
+        public string  Address { get; set; }     
+        public string Email { get; set; }
+        public int NId { get; set; }     
     }
 }
